@@ -1,1 +1,16 @@
-﻿
+﻿  data_def.cpp
+  dy_barrage_client.cpp
+dy_barrage_client.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+dy_barrage_client.cpp(23): warning C4005: “WINVER”: 宏重定义
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared\sdkddkver.h(234): note: 参见“WINVER”的前一个定义
+  dy_encoder.cpp
+dy_encoder.cpp(81): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h(1958): note: 参见“_snprintf”的声明
+dy_encoder.cpp(158): warning C4018: “<”: 有符号/无符号不匹配
+dy_encoder.cpp(174): warning C4018: “<”: 有符号/无符号不匹配
+  get_dy_barrage.cpp
+  正在生成代码
+  All 244 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  dy_barrage.vcxproj -> d:\Users\Jason\Documents\Visual Studio 2017\Projects\get_dy_barrage\Release\get_dy_barrage.exe
+  dy_barrage.vcxproj -> d:\Users\Jason\Documents\Visual Studio 2017\Projects\get_dy_barrage\Release\get_dy_barrage.pdb (Full PDB)
