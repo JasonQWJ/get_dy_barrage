@@ -20,6 +20,17 @@
 
 using namespace std;
 
+class keyinput
+{
+public:
+	keyinput();
+	~keyinput();
+
+	void key(string input);
+
+};
+
+
 class dy_barrage_client
 {
 public:
