@@ -1,2 +1,6 @@
-﻿  dy_barrage.vcxproj -> d:\Users\Jason\Documents\Visual Studio 2017\Projects\get_dy_barrage\Debug\get_dy_barrage.exe
+﻿  dy_barrage_client.cpp
+d:\users\jason\documents\visual studio 2017\projects\get_dy_barrage\get_dy_barrage\dy_barrage_client.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\users\jason\documents\visual studio 2017\projects\get_dy_barrage\get_dy_barrage\dy_barrage_client.cpp(23): warning C4005: “WINVER”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\shared\sdkddkver.h(234): note: 参见“WINVER”的前一个定义
+  dy_barrage.vcxproj -> d:\Users\Jason\Documents\Visual Studio 2017\Projects\get_dy_barrage\Debug\get_dy_barrage.exe
   dy_barrage.vcxproj -> d:\Users\Jason\Documents\Visual Studio 2017\Projects\get_dy_barrage\Debug\get_dy_barrage.pdb (Partial PDB)

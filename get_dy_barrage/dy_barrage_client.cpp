@@ -55,354 +55,602 @@ void keyinput::key(string input) {
 		
 		if (input == "!1")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 49;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!2")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 50;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!3")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 51;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!4")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 52;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!5")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 53;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!6")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 54;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!7")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 55;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!8")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 56;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!9")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 57;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!0")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 48;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!a")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 65;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+
 		}
 		else if (input == "!b")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 66;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!c")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 67;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!d")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 68;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!e")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 69;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!f")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 70;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!g")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 71;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!h")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 72;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!i")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 73;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!j")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 74;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!k")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 75;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!l")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 76;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!m")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 77;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!n")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 78;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!o")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 79;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!p")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 80;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!q")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 81;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!r")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 82;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!s")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 83;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!t")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 84;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!u")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 85;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!v")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 86;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!w")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 87;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!x")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 88;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!y")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 89;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!z")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = 90;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!tab")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = VK_TAB;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == "!esc")
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = VK_ESCAPE;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		else if (input == string("!jump"))
 		{
-			INPUT key[2];
+			INPUT key[1];
 			memset(key, 0, sizeof(key));
-			key[0].type = key[1].type = INPUT_KEYBOARD;
+			key[0].type = INPUT_KEYBOARD;
 			key[0].ki.wVk = VK_SPACE;
-			key[1].ki.dwFlags = KEYEVENTF_KEYUP;
-			SendInput(2, key, sizeof(INPUT));
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+		}
+		else if (input == string("!f1"))
+		{
+			INPUT key[1];
+			memset(key, 0, sizeof(key));
+			key[0].type = INPUT_KEYBOARD;
+			key[0].ki.wVk = VK_F1;
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+		}
+		else if (input == string("!f2"))
+		{
+			INPUT key[1];
+			memset(key, 0, sizeof(key));
+			key[0].type = INPUT_KEYBOARD;
+			key[0].ki.wVk = VK_F2;
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+		}
+		else if (input == string("!f3"))
+		{
+			INPUT key[1];
+			memset(key, 0, sizeof(key));
+			key[0].type = INPUT_KEYBOARD;
+			key[0].ki.wVk = VK_F3;
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+		}
+		else if (input == string("!f4"))
+		{
+			INPUT key[1];
+			memset(key, 0, sizeof(key));
+			key[0].type = INPUT_KEYBOARD;
+			key[0].ki.wVk = VK_F4;
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+		}
+		else if (input == string("!f6"))
+		{
+			INPUT key[1];
+			memset(key, 0, sizeof(key));
+			key[0].type = INPUT_KEYBOARD;
+			key[0].ki.wVk = VK_F6;
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+		}
+		else if (input == string("!f7"))
+		{
+			INPUT key[1];
+			memset(key, 0, sizeof(key));
+			key[0].type = INPUT_KEYBOARD;
+			key[0].ki.wVk = VK_F7;
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
+		}
+		else if (input == string("!f8"))
+		{
+			INPUT key[1];
+			memset(key, 0, sizeof(key));
+			key[0].type = INPUT_KEYBOARD;
+			key[0].ki.wVk = VK_F8;
+			SendInput(1, key, sizeof(INPUT));
+
+			Sleep(300);
+			memset(key, 0, sizeof(key));
+			key[0].ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, key, sizeof(INPUT));
 		}
 		/*else if (input == "!Cc")
 		{
